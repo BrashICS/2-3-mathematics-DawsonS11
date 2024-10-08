@@ -19,3 +19,55 @@ console.log(`I generated the number ${random_number}`)
 
 // ***  Your code goes below  ***
 
+// TASK PART 1
+
+// Let statements and simple addition to varibles
+let celsius = 100
+let fahrenheit = 0
+
+celsius += 2
+
+// Celsius to fahrenheit equation then print
+
+fahrenheit = (celsius * 9/5) + 32
+
+console.log(fahrenheit)
+
+// TASK PART 2
+
+// Reset variable, fahrenheit to celsius equation then print
+
+fahrenheit = 77
+
+celsius = (fahrenheit - 32) * 5/9
+
+console.log(celsius)
+
+// TASK PART 3
+
+console.log(`${fahrenheit} degrees Fahrenheit is ${celsius} degrees celsius.`)
+
+// probably useless code keeping it just in case i want to use it later
+// let y1 = 0
+// let y2 = 0
+// let x1 = 0
+// let x2 = 0
+
+// let A = (x1 + y1)
+// let B = (x2 + y2)
+
+let m = (0 - 5)/(6 - (-4))
+
+console.log(m)
+
+// TASK PART 5
+
+let radius = Math.round(Math.random() * 10)
+let height = Math.round(Math.random() * 10)
+
+console.log(`radius = ${radius} height = ${height} `)
+
+let volume = Math.round(Math.PI*(radius**2) * height)
+
+console.log(`the volume of my random cylinder is ${volume}`)
+
