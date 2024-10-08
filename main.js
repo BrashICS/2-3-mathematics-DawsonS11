@@ -62,12 +62,13 @@ console.log(m)
 
 // TASK PART 5
 
+// Random numbers and rounding
 let radius = Math.round(Math.random() * 10)
 let height = Math.round(Math.random() * 10)
 
-console.log(`radius = ${radius} height = ${height} `)
+// Equation and print
 
 let volume = Math.round(Math.PI*(radius**2) * height)
 
-console.log(`the volume of my random cylinder is ${volume}`)
+console.log(`the volume of my random cylinder with a radius of ${radius} and a height of ${height} is ${volume}`)
 
